@@ -1,0 +1,15 @@
+1. It is used to join multiple strings with delimter
+2. It is also used to join multiple strings with delimter and prefix and suffix.
+3. It will have constructor like below
+- public StringJoiner(String delimter)
+- public StringJoiner (String delimter , String prefix , String suffix)
+4. It is also used in Collectors.joining() code
+- Collectors.joining() // no delimter
+- Collectors.joining(String delimter)
+- Collectors.joining(String delimter, String prefix , String suffix)
+5. Some real life use cases
+- Join list of emails string with comma separated
+List<String> emails = List.of("email1","email2);
+
+Do like below 
+email1,email2 // String type variable
